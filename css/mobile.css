@@ -1,0 +1,221 @@
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .eve-head.pull-right {
+        width: 100%;
+    }
+    .right-desc.pull-left {
+        width: 100%;
+    }
+    .pic-head {
+        width: 100%;
+        margin: auto;
+    }
+    .pic-head h2 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .pic-det.pull-left {
+        width: 100%;
+    }
+    .pic-det p {
+        /* float: left; */
+        
+        line-height: 13px;
+    }
+    .pic-set {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .pic-set select {
+        background: transparent;
+        border-radius: 15px;
+        padding: 5px 59px 5px 102px;
+        text-align: center;
+        color: #949597;
+        width: 100%;
+    }
+    .pic-select.text-center {
+        text-transform: uppercase;
+        font-family: franklin gothic;
+        text-align: center !important;
+        float: none;
+    }
+    .col-md-4.set-img img {
+        text-align: center;
+        width: 100%;
+    }
+    .left-form select {
+        width: 90%;
+    }
+    .left-form input[type=text] {
+        width: 90%;
+    }
+    .left-form P {
+        padding-left: 16px;
+    }
+    .dg-container {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        margin-top: 30px;
+    }
+    .mid-cont {
+        border: 2px solid grey;
+        margin-top: 17px;
+        width: 100%;
+    }
+    .mid-left {
+        background: #a0a09f;
+        height: auto;
+    }
+    .midd-img {
+        padding: 12px;
+        height: auto;
+    }
+    .events-img.text-center button {
+        top: 140px;
+    }
+    .events-img.text-center img {
+        margin: -7px auto;
+    }
+    .events-img.text-center {
+        height: 177px;
+    }
+    .dg-container nav {
+        width: 100%;
+        position: absolute;
+        z-index: 1000;
+        left: 11%;
+        margin-left: -29px;
+        top: 36%;
+    }
+    .pic-head h2 {
+        /* float: right; */
+        
+        text-transform: uppercase;
+        font-family: franklin gothic;
+        text-align: center;
+    }
+    .pic-det {
+        text-align: center;
+        padding-top: 56px;
+    }
+    .pic-det p {
+        
+        font-size: 13px;
+        line-height: 5px;
+        font-family: franklin gothic;
+        text-align: center;
+    
+        float: none;
+}
+}
+
+@media only screen and (min-width: 469px)and (max-width: 949px) {
+    .dg-container nav {
+        width: 100%;
+        position: absolute;
+        z-index: 1000;
+        left: 11%;
+        margin-left: -29px;
+        top: 78%;
+    }
+    .events-img.text-center button {
+        top: 140px;
+    }
+    .events-img.text-center img {
+        margin: -7px auto;
+    }
+    .events-img.text-center {
+        height: 177px;
+    }
+    .midd-img {
+        padding: 12px;
+        height: auto;
+    }
+    .mid-cont {
+        border: 2px solid grey;
+        margin-top: 17px;
+        width: 100%;
+    }
+    .mid-left {
+        background: #a0a09f;
+        height: auto;
+    }
+    .left-form P {
+        padding-left: 23px;
+    }
+    .left-form select {
+        width: 90%;
+    }
+    .left-form input[type=text] {
+        width: 90%;
+    }
+    .eve-head.pull-right {
+        width: 100%;
+    }
+    .right-desc.pull-left {
+        width: 100%;
+    }
+    .pic-head {
+        width: 100%;
+        margin: auto;
+    }
+    .pic-head h2 {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .pic-det.pull-left {
+        width: 100%;
+    }
+    .pic-det p {
+        /* float: left; */
+        
+        line-height: 13px;
+    }
+    .pic-set {
+        padding-top: 20px;
+        width: 100%;
+    }
+    .pic-set select {
+        padding: 5px 57px 5px 168px;
+        width: 100%;
+    }
+    .pic-select.text-center {
+        text-transform: uppercase;
+        font-family: franklin gothic;
+        float: none;
+    }
+    .col-md-4.set-img img {
+        text-align: center;
+        width: 100%;
+    }
+    .dg-container nav span.dg-next {
+        background-position: top right;
+        position: relative;
+        left: 446px;
+        margin: auto;
+    }
+    .pic-head h2 {
+       float: none;
+        
+        text-transform: uppercase;
+        font-family: franklin gothic;
+        text-align: center;
+    }
+    .pic-det {
+        text-align: center;
+        padding-top: 20px;
+    }
+    .pic-det p {
+        float: none;
+        
+        font-size: 13px;
+        line-height: 5px;
+        font-family: franklin gothic;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1224px) {}

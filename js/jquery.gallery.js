@@ -23,7 +23,7 @@
 	$.Gallery.defaults 		= {
 		current		: 0,	// index of current item
 		autoplay	: false,// slideshow on / off
-		interval	: 2000  // time between transitions
+		interval	: 1060  // time between transitions
     };
 	
 	$.Gallery.prototype 	= {
@@ -98,19 +98,19 @@
 			if( this.support3d && this.supportTrans ) {
 			
 				leftCSS 	= {
-					'-webkit-transform'	: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-					'-moz-transform'	: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-					'-o-transform'		: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-					'-ms-transform'		: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-					'transform'			: 'translateX(-200px) translateZ(-200px) rotateY(45deg)'
+					'-webkit-transform'	: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+					'-moz-transform'	: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+					'-o-transform'		: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+					'-ms-transform'		: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+					'transform'			: 'translateX(-106px) translateZ(-106px) rotateY(45deg)'
 				};
 				
 				rightCSS	= {
-					'-webkit-transform'	: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-					'-moz-transform'	: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-					'-o-transform'		: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-					'-ms-transform'		: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-					'transform'			: 'translateX(200px) translateZ(-200px) rotateY(-45deg)'
+					'-webkit-transform'	: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+					'-moz-transform'	: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+					'-o-transform'		: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+					'-ms-transform'		: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+					'transform'			: 'translateX(106px) translateZ(-106px) rotateY(-45deg)'
 				};
 				
 				leftCSS.opacity		= 1;
@@ -122,19 +122,19 @@
 			else if( this.support2d && this.supportTrans ) {
 				
 				leftCSS 	= {
-					'-webkit-transform'	: 'translate(-200px) scale(0.8)',
-					'-moz-transform'	: 'translate(-200px) scale(0.8)',
-					'-o-transform'		: 'translate(-200px) scale(0.8)',
-					'-ms-transform'		: 'translate(-200px) scale(0.8)',
-					'transform'			: 'translate(-200px) scale(0.8)'
+					'-webkit-transform'	: 'translate(-106px) scale(0.8)',
+					'-moz-transform'	: 'translate(-106px) scale(0.8)',
+					'-o-transform'		: 'translate(-106px) scale(0.8)',
+					'-ms-transform'		: 'translate(-106px) scale(0.8)',
+					'transform'			: 'translate(-106px) scale(0.8)'
 				};
 				
 				rightCSS	= {
-					'-webkit-transform'	: 'translate(200px) scale(0.8)',
-					'-moz-transform'	: 'translate(200px) scale(0.8)',
-					'-o-transform'		: 'translate(200px) scale(0.8)',
-					'-ms-transform'		: 'translate(200px) scale(0.8)',
-					'transform'			: 'translate(200px) scale(0.8)'
+					'-webkit-transform'	: 'translate(106px) scale(0.8)',
+					'-moz-transform'	: 'translate(106px) scale(0.8)',
+					'-o-transform'		: 'translate(106px) scale(0.8)',
+					'-ms-transform'		: 'translate(106px) scale(0.8)',
+					'transform'			: 'translate(106px) scale(0.8)'
 				};
 				
 				currentCSS	= {
@@ -256,22 +256,22 @@
 						break;
 					case 'left':
 						return {
-							'-webkit-transform'	: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-							'-moz-transform'	: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-							'-o-transform'		: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-							'-ms-transform'		: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
-							'transform'			: 'translateX(-200px) translateZ(-200px) rotateY(45deg)',
+							'-webkit-transform'	: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+							'-moz-transform'	: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+							'-o-transform'		: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+							'-ms-transform'		: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
+							'transform'			: 'translateX(-106px) translateZ(-106px) rotateY(45deg)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
 						break;
 					case 'right':
 						return {
-							'-webkit-transform'	: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-							'-moz-transform'	: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-							'-o-transform'		: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-							'-ms-transform'		: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
-							'transform'			: 'translateX(200px) translateZ(-200px) rotateY(-45deg)',
+							'-webkit-transform'	: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+							'-moz-transform'	: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+							'-o-transform'		: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+							'-ms-transform'		: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
+							'transform'			: 'translateX(106px) translateZ(-106px) rotateY(-45deg)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
@@ -317,22 +317,22 @@
 						break;
 					case 'left':
 						return {
-							'-webkit-transform'	: 'translate(-200px) scale(0.8)',
-							'-moz-transform'	: 'translate(-200px) scale(0.8)',
-							'-o-transform'		: 'translate(-200px) scale(0.8)',
-							'-ms-transform'		: 'translate(-200px) scale(0.8)',
-							'transform'			: 'translate(-200px) scale(0.8)',
+							'-webkit-transform'	: 'translate(-106px) scale(0.8)',
+							'-moz-transform'	: 'translate(-106px) scale(0.8)',
+							'-o-transform'		: 'translate(-106px) scale(0.8)',
+							'-ms-transform'		: 'translate(-106px) scale(0.8)',
+							'transform'			: 'translate(-106px) scale(0.8)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
 						break;
 					case 'right':
 						return {
-							'-webkit-transform'	: 'translate(200px) scale(0.8)',
-							'-moz-transform'	: 'translate(200px) scale(0.8)',
-							'-o-transform'		: 'translate(200px) scale(0.8)',
-							'-ms-transform'		: 'translate(200px) scale(0.8)',
-							'transform'			: 'translate(200px) scale(0.8)',
+							'-webkit-transform'	: 'translate(106px) scale(0.8)',
+							'-moz-transform'	: 'translate(106px) scale(0.8)',
+							'-o-transform'		: 'translate(106px) scale(0.8)',
+							'-ms-transform'		: 'translate(106px) scale(0.8)',
+							'transform'			: 'translate(106px) scale(0.8)',
 							'opacity'			: 1,
 							'visibility'		: 'visible'
 						};
