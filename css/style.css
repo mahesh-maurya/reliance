@@ -22,7 +22,7 @@ body {
     background: -moz-linear-gradient(#bec0c2, #e1e0e0);
     background: linear-gradient(#bec0c2, #e1e0e0);
     padding-top: 15px;
-    font-family: 'Franklin Gothic';
+    font-family: 'Franklin Gothic', 'Open Sans', sans-serif;;
 }
 
 h2 {
@@ -403,7 +403,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 .home-menu ul li a span {
     font-size: 15px;
     color: #6d6e71;
-    font-weight: bold;
+    font-weight: 100;
     font-family: franklin gothic;
     position: relative;
     top: 5px;
@@ -459,16 +459,19 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 .mid-right h3 {
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 500;
     font-family: franklin gothic;
 }
 
 .left-form select {
     background: #636466;
     color: #fff;
-    padding: 1px 140px 0px 5px;
+    padding: 1px 143px 0px 10px;
     font-family: open sans;
-    font-size: 13px;
+    font-size: 12px;
+    width: 90%;
+    border: 0px;
+    -webkit-appearance: menulist;
 }
 
 .left-form input[type=text] {
@@ -478,8 +481,9 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     color: #fff;
     margin-top: 15px;
     padding: 1px 64px 0px 10px;
-    font-size: 13px;
+    font-size: 12px;
     font-family: open sans;
+    width: 90%;
 }
 
 .left-form {
@@ -518,7 +522,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 500;
     font-family: Franklin Gothic;
     float: right;
     color: #000;
@@ -550,28 +554,28 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     padding: 7px 30px 7px 31px;
     position: relative;
     outline: 0;
-    left: 12px;
+    left: 14px;
     font-family: franklin gothic;
-    font-weight: 900;
+    font-weight: 500;
     background: -webkit-linear-gradient(#FCFCFC, #BBBBBB);
     background: -o-linear-gradient(#FCFCFC, #BBBBBB);
     background: -moz-linear-gradient(#FCFCFC, #BBBBBB);
     background: linear-gradient(#FCFCFC, #BBBBBB);
-    top: 165px;
+    bottom: -10px;
     color: #000;
 }
 
 .vid-right {
-    padding-top: 20px;
+    padding-top: 80px;
     width: 100%;
 }
 
 .events-img.text-center img {
-    height: 189px;
-    position: absolute;
+    height: 190px;
+    position: relative;
     left: 13px;
     width: 100%;
-    margin: 24px auto;
+    top: 55px;
 }
 
 .pic-head h2 {
@@ -609,6 +613,8 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     padding: 5px 110px 5px 120px;
     text-align: center;
     color: #949597;
+    border: 1px solid;
+    outline: 0;
 }
 
 .pic-set {
@@ -714,6 +720,8 @@ img.eve-img {
     text-transform: uppercase;
     line-height: 7px;
     color: #3f4041;
+    font-family: franklin gothic;
+    font-weight: 100;
 }
 
 .eve-head.pull-right h2 {
@@ -841,6 +849,28 @@ a.left.carousel-control img {
 }
  
 .scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -o-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 100px;
+    cursor: pointer;
+}
+ 
+.scroll::-moz-scrollbar-thumb {
+  background-color: darkgrey;
+  /* outline: 1px solid slategrey; */
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.scroll::-moz-scrollbar {
+    width: 6px;
+    cursor: pointer;
+}
+ 
+.scroll::-moz-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -o-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -moz-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
