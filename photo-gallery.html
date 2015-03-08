@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!--    <script src="js/script.js"></script>-->
@@ -47,29 +48,27 @@
 </head>
 
 <body>
-       <div class="row hidden-md hidden-lg">
-        <div class="col-md-12">
-            <div class="mobile-menu">
+    
+            <div class="mobile-menu hidden-md hidden-lg">
                 <ul id="menu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li class="avtives">Digital Event
                         <ul>
-                            <li><a href="#">250 store event</a>
+                            <li><a href="events.html">250 store event</a>
                             </li>
                             <li><a href="#">1000 store event</a>
                             </li>
 
                         </ul>
                     </li>
-                    <li><a href="#">photo gallery</a>
+                    <li><a href="photo-gallery.html">photo gallery</a>
                     </li>
-                        <li><a href="#">video gallery</a></li>
+                        <li><a href="video-gallery.html">video gallery</a></li>
                         <li><a href="#">comment scribbles</a></li>
                 </ul>
 
             </div>
-        </div>
-    </div>
+    
 
     <div class="container">
         <div class="row">
@@ -242,6 +241,19 @@ float: none;">captured and showcared under one proof.</p>
     </div>
        <script type="text/javascript" src="js/jquery.gallery.js"></script>
        <script type="text/javascript" src="js/jquery.slicknav.js"></script>
+       <script type="text/javascript" src="js/jquery.mCustomScrollbar.min.js"></script>
+       	<script>
+		(function($){
+			$(window).load(function(){
+				
+				$(".scroll").mCustomScrollbar({
+					autoHideScrollbar:false,
+					theme:"rounded"
+				});
+				
+			});
+		})(jQuery);
+	</script>
     <script>
         $(document).ready(function () {
                     $(".fancybox").fancybox({

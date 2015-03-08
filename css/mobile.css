@@ -27,13 +27,14 @@
         width: 100%;
     }
     .pic-set select {
-        background: transparent;
         border-radius: 15px;
-        padding: 5px 59px 5px 102px;
         text-align: center;
         color: #949597;
-        width: 100%;
-    }
+      width: 100%;  background: rgb(204, 205, 206) url(../images/arow.png) no-repeat;  -webkit-appearance: none;  -moz-appearance: none;  
+        background-position: 220px 8px;  text-indent: 0.01px;  text-overflow: "";  
+        margin: auto;
+        padding: 3px 100px 3px;
+}
     .pic-select.text-center {
         text-transform: uppercase;
         font-family: franklin gothic;
@@ -73,10 +74,10 @@
         height: auto;
     }
     .events-img.text-center button {
-        top: 140px;
+        top: 40px;
     }
     .events-img.text-center img {
-        margin: -7px auto;
+        margin: -34px auto;
     }
     .events-img.text-center {
         height: 177px;
@@ -85,9 +86,9 @@
         width: 100%;
         position: absolute;
         z-index: 1000;
-        left: 11%;
-        margin-left: -29px;
-        top: 36%;
+        left: 9%;
+        margin-right: 0px;
+        top: 46%;
     }
     .pic-head h2 {
         /* float: right; */
@@ -173,6 +174,16 @@
     margin-left: 16px !important;
     margin-top: 24px !important;
 }
+        .bottom-home{
+background: #f2f0ee;
+height: 526px !important;
+width: 100%;
+}
+        .left-form select {
+
+background-position: 232px 6px;
+
+}
 }
 
 @media only screen and (min-width: 469px)and (max-width: 949px) {
@@ -245,7 +256,11 @@
     .pic-set select {
         padding: 5px 57px 5px 168px;
         width: 100%;
-    }
+    
+        background: rgb(204, 205, 206) url(../images/arow.png) no-repeat;  -webkit-appearance: none;  -moz-appearance: none;  
+        background-position: 369px 10px;  text-indent: 0.01px;  text-overflow: "";
+        margin: auto;
+}
     .pic-select.text-center {
         text-transform: uppercase;
         font-family: franklin gothic;
@@ -280,6 +295,16 @@
         font-family: franklin gothic;
         text-align: center;
     }
+    .bottom-home{
+background: #f2f0ee;
+height: 513px !important;
+width: 100%;
+}
+    .left-form select {
+
+background-position: 232px 6px;
+
+}
 }
 
 @media only screen and (min-width: 1224px) {}

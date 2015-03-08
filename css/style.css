@@ -471,7 +471,11 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     font-size: 12px;
     width: 90%;
     border: 0px;
-    -webkit-appearance: menulist;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #636466  url("../images/arow1.png")no-repeat;
+    background-position: 220px 6px;
+    text-indent: 0.01px;   text-overflow: "";
 }
 
 .left-form input[type=text] {
@@ -496,14 +500,15 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 .left-form P {
     font-size: 10px;
     float: left;
-    padding-left: 30px;
+    position: relative;
     font-family: Franklin Gothic;
+    left: 15px;
 }
 
 .left-btn.text-center button {
     position: relative;
     top: 40px;
-    right: 76px;
+    right: 55px;
     border-radius: 16px;
     padding: 4px 31px 4px 31px;
     border: 0px;
@@ -615,6 +620,11 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
     color: #949597;
     border: 1px solid;
     outline: 0;
+    background: rgb(204, 205, 206) url(../images/arow.png) no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position: 245px 10px;
+    text-indent: 0.01px;   text-overflow: "";
 }
 
 .pic-set {
@@ -626,7 +636,7 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 }
 
 .gallert-set {
-    padding-top: 20px;
+    margin-top: 20px;
     height: 626px;
     position: relative;
     overflow: auto;
@@ -642,20 +652,21 @@ only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
 
 .vid-des h4 {
     text-transform: uppercase;
-    padding-top: 10px;
+    margin-top: -10px;
     font-weight: normal;
-    padding-left: 11px;
+    padding-left: 0px;
     font-family: open sans;
+    font-size: 15px;
 }
 
 .vid-des h4 span {
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .vid-des p {
     float: left;
-    padding-left: 11px;
+    padding-left: 0px;
     text-transform: uppercase;
 }
 
@@ -780,6 +791,11 @@ img.eve-img {
     bottom: 0px;
     color: red;
 }
+    .bottom-home{
+background: #f2f0ee;
+height: 324px;
+width: 100%;
+}
 
 .carousel-indicators {
     bottom: 20px;
@@ -843,6 +859,7 @@ a.left.carousel-control img {
         display: block;
     }
 }
+/*
 .scroll::-webkit-scrollbar {
     width: 6px;
     cursor: pointer;
@@ -859,12 +876,13 @@ a.left.carousel-control img {
  
 .scroll::-moz-scrollbar-thumb {
   background-color: darkgrey;
-  /* outline: 1px solid slategrey; */
+   outline: 1px solid slategrey; 
   border-radius: 100px;
   height: 50px;
   width: 50px;
   cursor: pointer;
 }
+*/
 .scroll::-moz-scrollbar {
     width: 6px;
     cursor: pointer;
@@ -948,4 +966,8 @@ a.left.carousel-control img {
 
 .amazingslider-car-left-arrow-1 {
     left: 33px !important;
+}
+.pht-slider {
+    position: relative;
+    top: 20px;
 }
